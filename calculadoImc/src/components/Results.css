@@ -1,26 +1,24 @@
 /* Table */
-#result-container {
-    text-align: center;
-  }
-  
+
   #imc-number {
     font-size: 2.4rem;
     margin-bottom: 0.6rem;
-  }
-  
-  #imc-info {
-    font-size: 1.4rem;
-    color: #ccc;
-  }
-  
+  }  
   #result-container h3 {
     margin-top: 1rem;
     color: #dfdfdf;
   }
   
   #result-container {
+    text-align: center;
     display: flex;
+    font-size: 1.4rem;
+    color: #ccc;
     flex-direction: column;
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
   }
   
   #imc-table {
